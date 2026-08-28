@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuttaporn's Portfolio</title>
+
     <style>
         /* Basic Reset and Styling */
         * {
@@ -24,6 +25,16 @@
             color: #333333;
             padding: 2rem;
             text-align: center;
+        }
+
+        /* รูปโปรไฟล์วงกลม */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 1rem;
         }
 
         header h1 {
@@ -103,9 +114,12 @@
         }
     </style>
 </head>
+
 <body>
 
     <header>
+        <img src="ไม่มีชื่อ78_20260715110216.jpeg" class="profile-img" alt="Profile Picture">
+
         <h1>Nuttaporn's Portfolio</h1>
         <p>Welcome to my personal space where I showcase my work and skills</p>
     </header>
@@ -148,11 +162,21 @@
 
         <section id="projects">
             <h2>Featured Projects</h2>
+
             <div class="projects-grid">
+
                 <div class="project-card">
                     <h3>Product Pitching Competition</h3>
-                    <p>It was a product presentation competition, and my entry was "crispy fish rice seasoning." My concept involved taking an existing company product and enhancing it to increase its value; this presentation earned me second place.</p>
+
+                    <p>
+                        It was a product presentation competition, and my entry was
+                        "crispy fish rice seasoning." My concept involved taking an
+                        existing company product and enhancing it to increase its value;
+                        this presentation earned me second place.
+                    </p>
+
                 </div>
+
             </div>
         </section>
 
